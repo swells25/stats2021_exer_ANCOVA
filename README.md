@@ -56,9 +56,9 @@ In statistics, we focus on four areas. (Summarized from the videos above.)
 3. outliers
 4. Statistical assumptions
 
-### Multiple Regression
+### ANCOVA
 
-Multiple regression is used to predict the value of a continuous variable from predictor variables. Not only does it assess the strength and direction of the relationships between the predictor variables and the outcome variable when controlling for the other variables in the model. Multiple linear regression belongs to a family of tests known as parametric tests and has similar distributional assumptions.
+ANCOVA is used to compare differences in group means on a continuous outcome similar to ANOVA. However, ANCOVA allows for the comparison of the group means while controlling for the influence of a third variable on the outcome. The third variable is called the covariate. The covariate is a continuous variable. ANCOVA is most interpretable when two additional assumptions (along with regular assumptions for linear models) are met. First, ANCOVA works best when the covariate and the categorical independent variable are not significantly related to each other. This can be assessed by conducting a one-way ANOVA using the covariate as the outcome and the categorical independet variable as the independent variable for the ANOVA. If the result is not significant, the assumption of covariate and independent variable independence is met. Second, ANCOVA is appropriate when groups of the independent variable demonstrate similar slopes when the relationship between the continuous covariate and the continuous dependent variable are compared. This assumption can be checked by computing an ANCOVA model which includes the interaction between the covariate and the independent variable. If the interaction term is not significant the assumption of homogeneity of regression slope is met and the regular ANCOVA can be calculated. 
 
 ### Jamovi part
 
